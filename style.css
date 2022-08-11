@@ -5,8 +5,9 @@
     
 }
 nav{
-  
-    background-color: rgb(255, 255, 255);
+    position: fixed;
+  width: 100%;
+    background-color: rgba(255, 255, 255, 0.669);
     
 }
 nav ul{
@@ -56,4 +57,8 @@ nav ul li a:hover{
      padding:8px ;
      border-radius:10px ;
      pointer-events: painted;
+}
+header .header1{
+height: 500px;
+background-color: rgb(255, 255, 255);
 }
